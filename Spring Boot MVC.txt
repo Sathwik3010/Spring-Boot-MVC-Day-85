@@ -1,0 +1,23 @@
+SpringBoot WEB MVC
+===========================
+Spring MVC is the part of SpringFramework. Used for building web applications.
+It was fallowed a design pattern called MVC.
+MVC is a Design Pattern Which help us to separate different components of a web applications
+BusinessLogic and user interface and control flow are kept separated in MVC.
+
+MVC is Model- view- controller
+
+Model:- Model will have the data and business logic. Model will have interact with database. And will have application state.
+
+View : view is UI or User interface. It displays the data from the  model to the end-user.
+
+      Controller:- Handles user input and updates them to the model. Controller is responsible to
+                           Select appropriate view based on user’s request.
+
+
+                                        Displatecher servlet:
+                                    —-----------------------------
+It also called as front controller in Spring MVC. 
+It intercepts the requests(Http requests) delegates to appropriate controller.
+It will also sends the response back to the client
+It is automatically configured in SpringBoot.
